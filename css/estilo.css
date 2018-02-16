@@ -1,0 +1,38 @@
+.nav-header{
+	float:left;
+}
+
+.item-menu{
+	padding:30px 10px 15px 10px;
+	font-weight: bolder;
+}
+.sessao{
+	margin:30px;
+	padding: 20px;
+	border-bottom: #75a6fe 2px solid;
+}
+.titulo{
+	font-weight: bolder;
+	color: #444;
+	border-left:#75a6fe 10px solid;
+	border-right:#75a6fe 10px solid;
+	padding: 10px 20px;
+}
+.sombreada{
+	box-shadow: 15px 15px 10px;
+}
+.navbar-default .navbar-nav > li > a{
+	transition: background 0.4s, color 0.4s;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background:#75a6fe;
+    color: #FFF;
+}
+footer{
+	background-color: #444;
+	color: #FFF;
+	font-weight: bolder;
+	padding: 20px;
+	text-align: center;
+}
