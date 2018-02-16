@@ -35,9 +35,9 @@ modificado em :
 				<div>
 					<ul class="nav navbar-nav navbar-right menu">
 						<li class="item-menu"><a href="#">Home</a></li>
-						<li class="item-menu"><a href="#">Produtos</a></li>
-						<li class="item-menu"><a href="#">Soluções</a></li>
-						<li class="item-menu"><a href="#">Contato</a></li>
+						<li class="item-menu"><a href="#produtos">Produtos</a></li>
+						<li class="item-menu"><a href="#solucoes">Soluções</a></li>
+						<li class="item-menu"><a href="#" data-toggle="modal" data-target="#janela">Contato</a></li>
 					</ul>
 				</div>
 			</div>
@@ -97,7 +97,7 @@ modificado em :
 		<p>
 			Empresa no segmento de telecomunicações, a <strong>COMVIVA</strong> possui a preocupação constante de sempre oferecer aos seus clientes as melhores tecnologias.
 		</p>
-		<div class="row sessao">
+		<div class="row sessao" id="produtos">
 			<div class="col-sm-6">
 				<img src="img/produtos.jpg" class="img-responsive img-thumbnail sombreada">
 			</div>
@@ -110,7 +110,7 @@ modificado em :
 				</p>
 			</div>
 		</div>
-		<div class="row sessao">
+		<div class="row sessao" id="solucoes">
 			<div class="col-sm-6">
 				<img src="img/solucoes.jpg" class="img-responsive img-thumbnail sombreada">
 			</div>
@@ -132,17 +132,69 @@ modificado em :
 				<a href="#" class="fa fa-twitter img-circle"></a>
 				<a href="#" class="fa fa-google-plus img-circle"></a>
 			</div>
-			<div class="col-sm-8 desenvolvedor">
-				Desnvolvido por Paulo Freire
+			<div class="col-sm-8 endereco">
+				<a href="https://www.google.com.br/maps/place/Av.+Bezerra+de+Menezes,+1250+-+Farias+Brito,+Fortaleza+-+CE,+60325-005/@-3.73355,-38.5582444,17z/data=!3m1!4b1!4m5!3m4!1s0x7c74977ca45d88f:0x52ec4b733d14a6c!8m2!3d-3.73355!4d-38.5560503">Rua Bezerra de Menezes, 1250 sala 1709, Fortaleza-CE</a>
 			</div>
 		</div>
 		<!-- Add font awesome icons -->
+		<!-- Janela-->
+	<!-- Janela -->
+      <form class="modal fade" id="janela">
+        
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            
+            <!-- cabecalho -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <h4 class="modal-title">Entre em contato</h4>
+            </div>
+
+            <!-- corpo -->
+            <div class="modal-body">
+
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="digite seu email...">
+              </div>
+
+              <div class="form-group">
+                <textarea rows="4" cols="60" id="texto"  class="form-control" placeholder="escreva sua mensagem ...">
+                </textarea>
+              </div>
+
+            </div>
+
+            <!-- rodape -->
+            <div class="modal-footer">
+
+              <button type="button" class="btn btn-default" data-dismiss="modal">
+                Cancelar
+              </button>
+
+              <button type="submit" class="btn btn-primary">
+                Enviar
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+
+      </form>
+
+
+    </div>
+    <!--fim da janela-->
 	</footer>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!--Ajax , necessario para alguns componetes do bootsrap-->
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

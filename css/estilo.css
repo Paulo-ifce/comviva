@@ -1,5 +1,9 @@
+a{
+	color: #fff;
+}
 a:hover{
 	text-decoration: none;
+	color: #75a6fe;
 }
 .nav-header{
 	float:left;
@@ -35,7 +39,7 @@ footer{
 	padding: 20px;
 	text-align: center;
 }
-.desenvolvedor{
+.endereco{
 	margin-top: 40px;
 }
 /* === botoes == */
