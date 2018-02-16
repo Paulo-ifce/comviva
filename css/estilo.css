@@ -1,7 +1,10 @@
 .nav-header{
 	float:left;
+	margin-right: 40px;
 }
-
+.img-responsive{
+	
+}
 .item-menu{
 	padding:30px 10px 15px 10px;
 	font-weight: bolder;
@@ -13,7 +16,8 @@
 }
 .titulo{
 	font-weight: bolder;
-	color: #444;
+	color: #75a6fe;
+	text-shadow: 2px 2px 3px #000;
 	padding: 10px 20px;
 }
 .sombreada{
